@@ -2,6 +2,20 @@
 The goal of the **xgofind** project is to create a flexible and efficient HTTP interceptor proxy that enables real-time inspection, modification, and manipulation of HTTP and HTTPS traffic. This tool primarily aims to assist security 
 professionals, developers, and researchers in tasks such as:
 
+## How to use
+
+```bash
+$ go build cmd/proxy/main.go
+$ ./main.go --port 8080
+```
+#### parameters:
+```bash
+--help
+--port
+--dest
+--log
+```
+
 ### Security Testing (Pentesting):
 
 Inspect and modify requests and responses to identify vulnerabilities in web applications.
@@ -11,11 +25,6 @@ Simulate attacks like header injections, payload manipulation, and authenticatio
 
 Monitor traffic between clients and servers to understand API and web application behavior.
 Test request modifications without altering client or server code.
-
-### Education and Research:
-
-Provide a practical tool for understanding HTTP/HTTPS protocols and web traffic mechanics.
-Demonstrate traffic interception techniques in a controlled environment.
 
 ### Customizable Flexibility:
 

@@ -5,15 +5,44 @@ professionals, developers, and researchers in tasks such as:
 ## How to use
 
 ```bash
-$ go build cmd/proxy/main.go
-$ ./main.go --port 8080
+$ xgofind --port <PORT> --dest <DOMAIN>
 ```
+
+```bash
+$ ./xgofind --help
+
+XGOFIND - http/https interceptor
+==========================================
+Version: dev | Jabes Eduardo @yhk0
+
+Use:
+  proxy [opções]
+Options:
+  -dest string
+        Destination URL where the proxy will redirect requests.
+  -help
+        Exibe a ajuda do programa
+  -log
+        Enables logging of intercepted requests
+  -port string
+        Port for the proxy to listen
+```
+
 #### parameters:
+
 ```bash
 --help
 --port
 --dest
 --log
+```
+
+## Instalation:
+
+```bash
+$ git clone https://github.com/yhk0/xgofind.git
+$ make buid-[YOUR OS]
+$ cd bin
 ```
 
 ### Security Testing (Pentesting):

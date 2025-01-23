@@ -5,7 +5,7 @@ professionals, developers, and researchers in tasks such as:
 ## How to use
 
 ```bash
-$ xgofind --port <PORT> --dest <DOMAIN>
+$ xgofind --port {PORT} --dest {DOMAIN} --log
 ```
 
 ```bash
@@ -41,7 +41,7 @@ Options:
 
 ```bash
 $ git clone https://github.com/yhk0/xgofind.git
-$ make buid-[YOUR OS]
+$ make buid-{YOUR OS}
 $ cd bin
 ```
 
